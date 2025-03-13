@@ -3,11 +3,16 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon index.html",
     "test": "echo \"Error: no test specified\" && exit 1",
     "sass": "sass --watch style.scss ./assets/css/style.css"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "nodemon": "^3.1.9",
+    "sass": "^1.85.1"
+  }
 }
